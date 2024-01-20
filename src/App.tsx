@@ -25,14 +25,14 @@ function App() {
 
       {/* hero */}
       <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={styles.boxWidth}>
+        <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
       </div>
 
       {/* others */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={styles.boxWidth}>
+        <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
           <Billing />
